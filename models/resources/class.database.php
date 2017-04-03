@@ -13,7 +13,7 @@ class pg{
     public static $connection;
     
     private static function connect() {
-        self::$connection = @pg_connect("host=127.0.0.1 port=8888 dbname=proyecto user=postgres password=admin");
+        self::$connection = @pg_connect("host=127.0.0.1 port=5432 dbname=proyecto user=postgres password=admin");
         if (self::$connection === FALSE) {
             throw(new PostgresException("Can't connect to database server."));
         }
