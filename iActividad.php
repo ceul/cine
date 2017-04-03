@@ -95,7 +95,7 @@ alert("  ->"+html+" res");
 
   <body>
   <form class="form-horizontal" role="form">
-  <h3>Actividades</h3>
+  <h3>Actividads</h3>
   <div class="form-group">
     <label for="inputEmail3" class="col-sm-2 control-label">Código</label>
     <div class="col-sm-10">
